@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Eater of JSONs</string>
+    <string name="title_specialoffer_detail">Special Offer Detail</string>
+    <string name="json_source_url">http://sheltered-bastion-2512.herokuapp.com/feed.json</string>
+
+</resources>

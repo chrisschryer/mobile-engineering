@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actofferDetailLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/actofferDetailImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:padding="8dp"
+        android:src="@drawable/ic_launcher" />
+
+<TextView
+    android:id="@+id/actspecialoffer_sponsor"
+    style="?android:attr/textAppearanceLarge"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:text="Sponsor Name"
+    android:textColor="@color/black"
+    android:textIsSelectable="true"
+    tools:context="com.cschryer.eaterofjsons.SpecialOfferDetailFragment" />
+
+<TextView
+    android:id="@+id/actspecialoffer_detail"
+    style="?android:attr/textAppearanceMedium"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:text="Offer description"
+    android:textColor="@color/light_gray"
+    android:textIsSelectable="true"
+    tools:context="com.cschryer.eaterofjsons.SpecialOfferDetailFragment" />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <ImageView
+        android:id="@+id/actuserImg"
+        android:layout_width="250px"
+        android:layout_height="250px"
+    android:padding="8dp"
+        android:src="@drawable/ic_launcher" />
+
+<TextView
+    android:id="@+id/acttvUserDisplayName"
+    style="?android:attr/textAppearanceLarge"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:text="John Doe"
+    android:textColor="@color/gray"
+    android:textIsSelectable="true"
+    tools:context="com.cschryer.eaterofjsons.SpecialOfferDetailFragment" />
+    
+</LinearLayout>
+</LinearLayout>
+
